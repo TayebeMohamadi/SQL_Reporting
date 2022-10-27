@@ -20,17 +20,17 @@ the orders table includes order_id and city_code field.
 
 
 Take into consideration that a conversation is unique per order. The required fields are the following:
-* order_id
-* city_code
-* first_courier_message: Timestamp of the first courier message
-* first_customer_message: Timestamp of the first customer message
-* num_messages_courier: Number of messages sent by courier
-* num_messages_customer: Number of messages sent by customer
-* first_message_by: The first message sender (courier or customer)
-* conversation_started_at: Timestamp of the first message in the conversation
-* first_responsetime_delay_seconds: Time (in secs) elapsed until the first message was responded
-* last_message_time: Timestamp of the last message sent
-* last_message_order_stage: The stage of the order when the last message was sent
+* <b>order_id</b> 
+* <b>city_code</b>
+* <b>first_courier_message</b>: Timestamp of the first courier message
+* <b>first_customer_message</b>: Timestamp of the first customer message
+* <b>num_messages_courier</b>: Number of messages sent by courier
+* <b>num_messages_customer</b>: Number of messages sent by customer
+* <b>first_message_by</b>: The first message sender (courier or customer)
+* <b>conversation_started_at</b>: Timestamp of the first message in the conversation
+* <b>first_responsetime_delay_seconds</b>: Time (in secs) elapsed until the first message was responded
+* <b>last_message_time</b>: Timestamp of the last message sent
+* <b>last_message_order_stage</b>: The stage of the order when the last message was sent
 
 
 
